@@ -1,0 +1,112 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+.menu ul li a{
+	font-size: 20px;
+	text-align: right;
+	padding: 0 0 !important;
+}
+/*slider start*/
+.slider{
+	padding-bottom: 80px;
+}
+.cid li{
+    width: 13px;
+    height: 13px;
+}
+.inspire{
+	margin-top: 10px;
+	margin-bottom: 0;
+	text-align: center;
+}
+.inspire h1{
+	font-size: 25px;
+}
+.inspire ul li i{
+	margin-right: 10px;
+	font-size: 15px;
+}
+/*features start*/
+.features{
+	padding-top: 50px;
+	padding-bottom: 60px;
+}
+.title h1{
+	font-size: 25px;
+}
+.title p{
+	font-size: 18px;
+}
+.p_l_0{
+	padding-left: 15px;
+}
+.t_center{
+	text-align: center;
+}
+.m_t_30{
+	margin-top: 20px;
+}
+/*features end*/
+/*contact-start*/
+.contact_form input{
+	padding: 20px 10px;
+}
+.contact_form button{
+	width: 100%;
+	padding: 10px 25px;
+	margin-top: 15px;
+}
+/*contact-end*/
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+.menu ul li a{
+	text-align: right;
+	padding: 0 0 !important;
+}
+/*slider start*/
+.inspire{
+	margin-top: 20px;
+	text-align: center;
+}
+/*feauture start*/
+.t_center{
+	text-align: center;
+}
+/*feauture end*/
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+/*header start*/
+.menu ul li a{
+	text-align: right;
+	padding: 0 0 !important;
+}
+/*slider start*/
+.inspire{
+	margin-top: 20px;
+}
+.inspire h1{
+	font-size: 27px;
+}
+/*contact start*/
+.contact_form button{
+	padding: 15px 33px;
+}
+/*contact end*/
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+/*contact start*/
+.contact_form button{
+	padding: 15px 37px;
+}
+/*contact end*/
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}
